@@ -1,0 +1,165 @@
+:root {
+  --primary-font-color: #212121;
+  --secondary-font-color: #757575;
+  --accent-color: #2196f3;
+  --bg-color: #ffffff;
+  --secondary-bg-color: #2f303a;
+
+  --primary-font: "Roboto", sans-serif;
+  --logo-font: "Raleway", sans-serif;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--primary-font-color);
+  font-family: var(--primary-font);
+}
+
+/*==================== HEADER ====================*/
+/* Оформление лого шапка*/
+.web {
+  color: var(--accent-color);
+  font-family: var(--logo-font);
+}
+.studio-head {
+  color: #000000;
+  font-family: var(--logo-font);
+}
+
+.site-nav .link,
+.contacts-list .link {
+  color: var(--primary-font-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contacts-list .link:hover,
+.contacts-list .link:focus {
+  color: var(--accent-color);
+}
+/*==================== END OF HEADER ====================*/
+
+/*==================== HERO ====================*/
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  /* color: #ffffff; */
+}
+
+.btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+/*==================== END OF HERO ====================*/
+
+/*==================== FEATURES ====================*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.features-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.features-desc {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--secondary-font-color);
+}
+/*==================== END OF FEATURES ====================*/
+
+/*==================== ABOUT ====================*/
+.about-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.666;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/*==================== END OF ABOUT ====================*/
+
+/*==================== TEAM ====================*/
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.666;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-empl-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-font-color);
+}
+/*==================== END OF TEAM ====================*/
+
+/*==================== FOOTER ====================*/
+
+.studio-footer {
+  /* color: var(--bg-color); */
+  font-family: var(--logo-font);
+}
+
+.adress-place {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  /* color: var(--bg-color); */
+}
+
+.adress-info {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  /* color: rgba(255, 255, 255, 0.6); */
+}
+/*==================== END OF FOOTER====================*/
+
+.list {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
